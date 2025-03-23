@@ -13,7 +13,7 @@ struct cs193p_MemorizeApp: App {
     
     var body: some Scene {
         WindowGroup {
-            EmojiMemoryGameView(viewModel: game)
+            EmojiMemoryGameView(emojiMemoryGame: game)
         }
     }
 }
